@@ -1,0 +1,26 @@
+# Dataset (not distributed with the repo — download separately)
+BTMRI/
+data/
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.bin
+checkpoints/
+
+# OS / editor junk
+.DS_Store
+.vscode/
+
+# Colab-specific
+drive/
